@@ -7,6 +7,5 @@ lazy val root = (project in file("."))
     name := "OptionalQueryCodecFailure",
     libraryDependencies ++= Seq(
       "dev.zio" %% "zio-http" % "3.2.0",
-      "dev.zio" %% "zio-http-testkit" % "3.2.0",
     )
   )
